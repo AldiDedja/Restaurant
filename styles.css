@@ -6,9 +6,13 @@
   margin: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
+  cursor: pointer;
 }
 
 img, picture, video, canvas, svg {
@@ -84,16 +88,16 @@ p, h1, h2, h3, h4, h5, h6 {
   overflow: hidden;
 }
 .stafi > div:nth-of-type(1) {
-  background: url("/Restaurant/images/chef.jpg") no-repeat 50%/cover;
+  background: url("/images/chef.jpg") no-repeat 50%/cover;
 }
 .stafi > div:nth-of-type(2) {
-  background: url("/Restaurant/images/manager.jpg") no-repeat 50%/cover;
+  background: url("/images/manager.jpg") no-repeat 50%/cover;
 }
 .stafi > div:nth-of-type(3) {
-  background: url("/Restaurant/images/sommelier.jpg") no-repeat 50%/cover;
+  background: url("/images/sommelier.jpg") no-repeat 50%/cover;
 }
 .stafi > div:nth-of-type(4) {
-  background: url("/Restaurant/images/maitred.jpg") no-repeat 50%/cover;
+  background: url("/images/maitred.jpg") no-repeat 50%/cover;
 }
 .content {
   font-size: 1.5rem;
@@ -227,20 +231,17 @@ p, h1, h2, h3, h4, h5, h6 {
   font-size:0.8em;
   }
   
-  
-.year:hover{
-  color:#edc967;
-  }
-  
-
 .motto {
     color:#fff;
     font-family: "Dancing Script";
   }
 
-  .year {
+.year {
     font-family: "Dancing Script";
     font-size: 22px;
   }
 
-  
+.year:hover{
+    color:#edc967;
+    cursor: pointer;
+}

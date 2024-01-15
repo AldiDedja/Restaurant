@@ -5,17 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>Veloura</title>
+    <link rel="icon" href="/images/logo.png" type="image/x-icon">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
       </style>
 </head>
+<script>
+    function refreshPage() {
+      window.location.reload();
+    }
+  </script>
 <body>
         <h1 class="restoranti">Veloura</h1>     
     <div class="grupbutonat">   
-        <button class="button">Menu</button>
-        <button class="button">Booking</button>
-        <button class="button">Contact</button>
-        <button class="button">More</button>   
+        <a href="/menu.html" class="button">Menu</a>
+        <a class="button">Booking</a>
+        <a href="#contact" class="button">Contact</a>
+        <a class="button">More</a>   
         </a></as>
     </div>
 
@@ -62,7 +68,7 @@
         </div> 
     
         <div class="ndarja2">      
-                <img src="/Restaurant/images/res5.jpg" class="foto1">
+                <img src="/images/res5.jpg" class="foto1">
         </div>
     </div>
 
@@ -70,7 +76,7 @@
     <div class="sektori2">
         <div class="box1">
             <div class="ndarja3">
-                <img src="/Restaurant/images/res1.jpg" class="foto2">
+                <img src="/images/res1.jpg" class="foto2">
             </div>
         </div>
     
@@ -89,14 +95,14 @@
         </div>
     
         <div class="ndarja2">      
-                <img src="/Restaurant/images/res3.jpg" class="foto1">
+                <img src="/images/res3.jpg" class="foto1">
         </div>
     </div>
 
     <div class="sektori2">
         <div class="box1">
             <div class="ndarja3">
-                <img src="/Restaurant/images/res2.jpg" class="foto2">
+                <img src="/images/res2.jpg" class="foto2">
             </div>
         </div>
     
@@ -107,13 +113,12 @@
         </div>
     </div>
 
-
     <footer>
         <div class="footer">
             <h2 class="motto">Culinary Excellence & Timeless Elegance</h2>
             <div class="row">
-                <p>Phone: (355) 69 000 1001</p><br>
-                <p class="year">© Veloura  2024</p>
+                <p> <a name="contact">Phone: (355) 69 000 1001</a></p><br>
+                <p onclick="refreshPage()" class="year">© Veloura  2024</p>
             </div>
         </div>
         </footer>
