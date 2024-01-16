@@ -1,0 +1,78 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  * {
+    margin: 0;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    cursor: pointer;
+    background: #1a0740;
+  }
+  
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  
+  #root, #__next {
+    isolation: isolate;
+  }
+
+.booking {
+    text-align: center;
+    font-family: 'Dancing Script';
+    color: #edc967;
+}
+
+label {
+    color: #edc967;
+    font-size: 35px;
+    font-family: 'Italianno';
+    padding-left: 10px;
+}
+
+td {
+  padding-left: 10px;
+}
+
+.footer{
+  background:#1a0740;
+  padding:30px 0px;
+  font-family: 'Play', sans-serif;
+  text-align: center;
+  }
+  
+.row{
+  width:100%;
+  margin:1% 0%;
+  padding:0.6% 0%;
+  color:gray;
+  font-size:0.8em;
+  }
+  
+
+.motto {
+  color:#fff;
+  font-family: "Dancing Script";
+}
+
+.year {
+  font-family: "Dancing Script";
+  font-size: 22px;
+}
+
+.year:hover{
+  color:#edc967;
+  cursor: pointer;
+}

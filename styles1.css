@@ -131,3 +131,20 @@
     color:#edc967;
     cursor: pointer;
 }
+
+.go-book {
+  text-align: center;
+  background: #1a0740;
+  padding-top: 5px;
+}
+
+.button {
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  color:#1a0740;
+  background:#edc967;
+  font-family: 'Dancing Script';
+  font-size: large;
+}
+
