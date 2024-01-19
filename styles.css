@@ -88,6 +88,7 @@ p, h1, h2, h3, h4, h5, h6 {
   position: relative;
   overflow: hidden;
 }
+
 .stafi > div:nth-of-type(1) {
   background: url("images/chef.jpg") no-repeat 50%/cover;
 }
@@ -156,7 +157,7 @@ p, h1, h2, h3, h4, h5, h6 {
 .sektori1 {
     display: flex;
     flex-direction: row; 
-    align-items: center; /* Center items vertically */
+    align-items: center; 
     background: #edc967;
 }
 
@@ -174,7 +175,7 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .ndarja2 {
     flex: 1;
-    justify-content: flex-end; /* Align content to the end (right) */
+    justify-content: flex-end; 
 }
 
 .foto1 {

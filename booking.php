@@ -28,24 +28,24 @@
 </script>
 <body>
     <h1 onclick="refreshPage()" class="booking">Booking</h1>
-    <form name="rzv" method="POST">
-        <table border="0">
+    <form method="POST" action="form.php">
+        <table border="0">3.
             <tr>
                 <td><label>Name:</label></td> 
             </tr>
-            <td><input type="text" id="name" name="name" placeholder="Enter Name"></td>
+            <td><input type="text" name="name" placeholder="Enter Name"></td>
             <tr>
                 <td><label>Date:</label></td>  
             </tr>
-            <td><input type="date" id="date" name="date"></td>
+            <td><input type="date" name="date"></td>
             <tr>
                 <td><label>Time:</label></td>  
             </tr>
-            <td><input type="timestamp" id="time" name="time"></td>
+            <td><input type="time" name="time"></td>
             <tr>
                 <td><label>Contact:</label></td>
             </tr>
-            <td><input type="number" id="contact" name="contact"></td>
+            <td><input type="number" name="contact"></td>
             <tr>
                 <td><label>E-mail:</label></td>
             </tr>
@@ -65,7 +65,7 @@
             <tr>
                 <td><label>Comment:</label></td> 
             </tr>
-            <td><textarea name="Comment" rows="5" cols="40" placeholder="Your comments..."></textarea></td>
+            <td><textarea name="comment" rows="5" cols="40" placeholder="Your comments..."></textarea></td>
             <tr>
                 <td><label>Menu 1:</label></td>
                 <td>
@@ -122,5 +122,8 @@
             </div>
         </div>
         </footer>
+        
 </body>
 </html>
+
+
